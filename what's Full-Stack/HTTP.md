@@ -1,13 +1,14 @@
 ## HTTPS 是怎么工作的
 - 简单的来说 HTTPS 的 S，就是 SSL/ TLS，SSL 是 TLS 的前身，基本上我们当成同一个 （S）看就行，换言之，HTTPS = HTTP + SSL / TLS，在 TCP 层到 HTTP 层之间加了一层 SSL。
 如图所示，在 HTTP 网站通讯中，由于没有一个三方认证的过程：
-![avatar](https://raw.githubusercontent.com/mouse123/my-tips/master/image/gpu.gif)
+![avatar](https://raw.githubusercontent.com/mouse123/my-tips/master/image/http.jpg)
+
 你完全无法得知，你收到的结果是否是被篡改后的结果，当然，更无法保证，即使没动过的数据，是不是会被窃听。
 我们叫图中那位黑客「中间人」，也就会造成上文所说的中间人攻击。
 因此后来，大家就想到了，只要手握一份密钥，是否就天下我有了？
 常见的加密有两种：对称加密和非对称加密——但是我们实际上发现，无论用对称加密还是非对称加密，密钥一泄露，还是没办法（对称加密比较快，但一份密钥非常容易泄露，在非对称加密中，公钥本身是公开的，只要截取私钥返回，需要公钥解密的部分，照样的截获数据）。
 于是乎，我们又想到了一种升级的加密方式：对称与非对称结合。
-![avatar](https://raw.githubusercontent.com/mouse123/my-tips/master/image/gpu.gif)
+![avatar](https://raw.githubusercontent.com/mouse123/my-tips/master/image/encrypt%20http.jpg)
 然后就变成了上图中的加密方式，我先用非对称加密的方式传输密钥，然后用对称加密传输数据，这样就可以避免了传输过程中对称加密密钥泄露和公钥公开导致的截获数据两个问题了——但是，怎么证明你是个好人呢？
 于是，终于找到了一个可信的三方机构：证书发布机构。
 
