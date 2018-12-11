@@ -20,4 +20,4 @@
 ## HeidiSQL SQL可视化 
 - [HeidiSQL]
 #3 sqlitespy sqlite可视化
-- [sqlitespy]
+- [sqlitespy](https://github.com/mouse123/my-tips/blob/master/goodTools/sqlitespy.rar)
