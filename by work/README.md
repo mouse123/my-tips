@@ -1,4 +1,6 @@
 # Node.js
+## https (CERT_HAS_EXPIRED)证书过期的错误请求
+- 解决方法:请求options添加改属性 rejectUnauthorized: false
 ## 服务器压力测试
 - [autocannon](https://github.com/mcollina/autocannon)  
 ## API测试
