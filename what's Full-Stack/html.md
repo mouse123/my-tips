@@ -51,13 +51,13 @@
 所以，通过使用preserveAspectRatio属性的align和meetOrSlice值，你可以声明是否统一缩放viewBox，是否和视窗对齐，在视窗中是否整个可见。
 
 ## 终极自适应模式
-- [使用百分比+设置zoom比例] ()
+- [设置zoom比例+使用百分比] ()
 ```
-//set percent
-width=100%
-height=100%
-//set zoom
+//set zoom first
 document.body.style.zoom = size;
 document.body.style.cssText += '; -moz-transform: scale(' + size + ');-moz-transform-origin: 0 0; ';
+//set percent second
+width=100%
+height=100%
 
 ```
