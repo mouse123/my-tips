@@ -59,3 +59,15 @@ $watch(a,function(newValue,oldValue){
 - [Vue](https://cn.vuejs.org/)
 ## Canvas
 - [Canvas](https://github.com/supperjet/H5-Animation)
+## 鲜为人知的JS
+- [what the js is that](https://www.infoq.cn/article/QMteVFAMMeBpDhWE-m01)
+## Prettier
+- [Prettier](https://www.infoq.cn/article/IzAMXQtkJv3N0rXX_G6a)
+## 团队建立
+- [团队建立](https://www.infoq.cn/article/2kJpJl8*CPK3UZXHm2By)
+## Flutter
+- [Flutter]()
+## 2019 React
+- [React](https://www.infoq.cn/article/AEkiVAiJf25LZmoUe_yc)
+## 2019 Node.js
+- [Node.js](https://www.infoq.cn/article/mXd3WWq_8fd3xoEH9zjG)
