@@ -18,3 +18,5 @@
 最终，我们的整个过程都不怕窃听篡改了——不过，可能有个让人困惑的问题，我的操作系统是怎么拥有这么多 CA 公钥的。
 实际上，顶级的 CA 屈指可数，那些其他签发商，其实是被间接信任的，正好在前几天，Let's Encrypt 发布了一条消息，说明他们未来会被所有主要的程序直接信任，而过去，他们一直是被间接信任的，是由于浏览器和操作系统信任 IdenTrust，而 IdenTrust 信任他们，因此他们才被信任：
 Browsers and operating systems have not, by default, directly trusted Let’s Encrypt certificates, but they trust IdenTrust, and IdenTrust trusts us, so we are trusted indirectly. IdenTrust is a critical partner in our effort to secure the Web, as they have allowed us to provide widely trusted certificates from day one.
+## 对称加密与非对称加密
+- [:)](https://www.zhihu.com/question/33645891/answer/57721969)

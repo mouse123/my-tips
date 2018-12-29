@@ -71,3 +71,11 @@ $watch(a,function(newValue,oldValue){
 - [React](https://www.infoq.cn/article/AEkiVAiJf25LZmoUe_yc)
 ## 2019 Node.js
 - [Node.js](https://www.infoq.cn/article/mXd3WWq_8fd3xoEH9zjG)
+## Nginx
+- [Nginx] (https://www.infoq.cn/article/m*8bzJOGGLwDEYEfZBy9)
+## 前端模块化
+- [module] (https://www.infoq.cn/article/QdLtxgNU63-AuY1VOSm7)
+## PWA
+- [pwa] (https://www.w3cplus.com/pwa/your-first-pwapp.html)
+## Vue 小程序
+- [小程序VUE](http://mpvue.com/mpvue/simple/)

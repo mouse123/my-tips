@@ -1,4 +1,4 @@
-#DATABASE
+# DATABASE
 ## Redis数据结构服务器
 - key-value存储系统
 - Redis运行在内存中但是可以持久化到磁盘
