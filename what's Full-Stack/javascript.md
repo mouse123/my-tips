@@ -79,3 +79,11 @@ $watch(a,function(newValue,oldValue){
 - [pwa] (https://www.w3cplus.com/pwa/your-first-pwapp.html)
 ## Vue 小程序
 - [小程序VUE](http://mpvue.com/mpvue/simple/)
+## 2018 前端
+- [前端](https://www.infoq.cn/article/omWDKQXA3I*0fcPqJFTD)
+## 软技能
+- [](https://www.infoq.cn/article/zE5KFjB*6Bs2ZBEUDzWX)
+## React 实践
+- [](https://www.infoq.cn/article/vXkNh*HVrW7HUeiNdlsk)
+## Facebook 技术栈
+- [Facebook](https://opensource.fb.com/)
