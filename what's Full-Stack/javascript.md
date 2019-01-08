@@ -82,8 +82,12 @@ $watch(a,function(newValue,oldValue){
 ## 2018 前端
 - [前端](https://www.infoq.cn/article/omWDKQXA3I*0fcPqJFTD)
 ## 软技能
-- [](https://www.infoq.cn/article/zE5KFjB*6Bs2ZBEUDzWX)
+- [软技能](https://www.infoq.cn/article/zE5KFjB*6Bs2ZBEUDzWX)
 ## React 实践
-- [](https://www.infoq.cn/article/vXkNh*HVrW7HUeiNdlsk)
+- [React](https://www.infoq.cn/article/vXkNh*HVrW7HUeiNdlsk)
 ## Facebook 技术栈
 - [Facebook](https://opensource.fb.com/)
+## Node.js 图像识别
+- [images](https://www.chenng.cn/post/Node-command-line-tool-production.html)
+## 某前端博客
+- [某前端博客](https://www.chenng.cn/)
