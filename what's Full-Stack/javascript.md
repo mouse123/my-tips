@@ -85,9 +85,14 @@ $watch(a,function(newValue,oldValue){
 - [软技能](https://www.infoq.cn/article/zE5KFjB*6Bs2ZBEUDzWX)
 ## React 实践
 - [React](https://www.infoq.cn/article/vXkNh*HVrW7HUeiNdlsk)
+- [React](https://scrimba.com/g/glearnreact)
 ## Facebook 技术栈
 - [Facebook](https://opensource.fb.com/)
 ## Node.js 图像识别
 - [images](https://www.chenng.cn/post/Node-command-line-tool-production.html)
 ## 某前端博客
 - [某前端博客](https://www.chenng.cn/)
+## stack overflow
+- [stack overflow](https://www.infoq.cn/article/zEo3O3bs*buxA6FpHjzE)
+## 2019 full-stack
+- [full-stack](https://www.infoq.cn/article/CQCF0ETQVZVgE8_7dDrw)
