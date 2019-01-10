@@ -96,3 +96,5 @@ $watch(a,function(newValue,oldValue){
 - [stack overflow](https://www.infoq.cn/article/zEo3O3bs*buxA6FpHjzE)
 ## 2019 full-stack
 - [full-stack](https://www.infoq.cn/article/CQCF0ETQVZVgE8_7dDrw)
+## 代码整洁
+- [clean code](https://www.zcfy.cc/article/clean-code-javascript-readme-md-at-master-ryanmcdermott-clean-code-javascript-github-2273.html)

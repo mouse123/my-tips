@@ -20,3 +20,5 @@ return res
 ```
 ## 前端算法收集
 - [:)](https://www.imooc.com/article/23801)
+## 机器编程和传统编程比较
+- [:)](https://www.infoq.cn/article/2B9-ckcAmlB3qxuulCjV)
