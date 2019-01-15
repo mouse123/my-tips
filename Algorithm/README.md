@@ -22,3 +22,7 @@ return res
 - [:)](https://www.imooc.com/article/23801)
 ## 机器编程和传统编程比较
 - [:)](https://www.infoq.cn/article/2B9-ckcAmlB3qxuulCjV)
+## 数学常识
+- [:)](http://www.shuxuele.com/index.html)
+## 计算机网络
+- [:)](https://www.infoq.cn/article/7rVcJX4j4Nu7dgGhm_80)

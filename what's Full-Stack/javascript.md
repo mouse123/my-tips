@@ -98,3 +98,7 @@ $watch(a,function(newValue,oldValue){
 - [full-stack](https://www.infoq.cn/article/CQCF0ETQVZVgE8_7dDrw)
 ## 代码整洁
 - [clean code](https://www.zcfy.cc/article/clean-code-javascript-readme-md-at-master-ryanmcdermott-clean-code-javascript-github-2273.html)
+## HTML演示文稿
+- [reveal.js](https://github.com/hakimel/reveal.js)
+## expo
+- [expo](https://docs.expo.io/versions/v32.0.0/)
