@@ -26,3 +26,5 @@ return res
 - [:)](http://www.shuxuele.com/index.html)
 ## 计算机网络
 - [:)](https://www.infoq.cn/article/7rVcJX4j4Nu7dgGhm_80)
+## AI文章
+- [:)](https://www.infoq.cn/article/0CV9LXV_pXqqu51xJs57)

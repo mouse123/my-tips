@@ -102,3 +102,5 @@ $watch(a,function(newValue,oldValue){
 - [reveal.js](https://github.com/hakimel/reveal.js)
 ## expo
 - [expo](https://docs.expo.io/versions/v32.0.0/)
+## 算法必备
+- [:)](https://www.infoq.cn/article/ur1QLockeQ*hXobPm0kI)
