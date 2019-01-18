@@ -104,3 +104,5 @@ $watch(a,function(newValue,oldValue){
 - [expo](https://docs.expo.io/versions/v32.0.0/)
 ## 算法必备
 - [:)](https://www.infoq.cn/article/ur1QLockeQ*hXobPm0kI)
+## WebAssembly
+- [:)](https://www.ibm.com/developerworks/cn/web/wa-lo-webassembly-status-and-reality/index.html)
