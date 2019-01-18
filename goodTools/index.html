@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VIP视频观看</title>
+</head>
+<body>
+    <select name="" id="vip_analyze">
+        <option value="https://cdn.yangju.vip/k/?url=">解析地址1</option>
+        <option value="https://jx.lache.me/cc/?url=">解析地址2</option>
+        <option value="https://api.653520.top/vip/?url=">解析地址3</option>
+        <option value="https://jx.ab33.top/vip/?url=">解析地址4</option>
+        <option value="https://vip.mpos.ren/v/?url=">解析地址5</option>
+        <option value="https://jx.000180.top/jx/?url=">解析地址6</option>
+        <option value="https://jx.km58.top/jx/?url=">解析地址7</option>
+    </select>
+    <input id="vip_url" type="text" value="" placeholder="请输入视频地址">
+    <button onmousedown="gowatch()">立即观看</button>
+</body>
+<script>
+    function gowatch(){
+        var vip_analyze = document.getElementById("vip_analyze");
+        var analyze_url = vip_analyze[vip_analyze.selectedIndex].value
+        var vip_url = document.getElementById("vip_url")
+        window.open(analyze_url+vip_url);
+    }
+</script>
+</html>
