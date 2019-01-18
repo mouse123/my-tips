@@ -4,27 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>VIP视频观看</title>
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+        .small-image{
+            cursor: pointer;
+            width: 90%;
+        }
+        .title-style{
+            color:royalblue
+        }
+    </style>
 </head>
-<body>
-    <select name="" id="vip_analyze">
-        <option value="https://cdn.yangju.vip/k/?url=">解析地址1</option>
-        <option value="https://jx.lache.me/cc/?url=">解析地址2</option>
-        <option value="https://api.653520.top/vip/?url=">解析地址3</option>
-        <option value="https://jx.ab33.top/vip/?url=">解析地址4</option>
-        <option value="https://vip.mpos.ren/v/?url=">解析地址5</option>
-        <option value="https://jx.000180.top/jx/?url=">解析地址6</option>
-        <option value="https://jx.km58.top/jx/?url=">解析地址7</option>
-    </select>
-    <input id="vip_url" type="text" value="" placeholder="请输入视频地址">
-    <button onmousedown="gowatch()">立即观看</button>
+<body style="overflow: hidden;">
+    
+    <div id="cards" class="jumbotron" style="text-align:center;over-flow:hidden;">
+        <div class="card" style="width: 18rem;display:inline-block">
+            <h5 class="card-title title-style">VIP视频解析</h5>
+            <img id="smallImage" class="card-img-top small-image" src="./vip_help1.png" alt="" data-toggle="modal" data-target="#imageLoadModal" onclick="setImage()">
+            <div class="card-body">
+                <p class="card-text">输入VIP视频网址即可在线观看.</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#vipVideoModal">进入</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="vipVideoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">VIP视频解析</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <select name="" id="vip_analyze" style="height:30px;">
+                        <option value="https://cdn.yangju.vip/k/?url=">解析地址1</option>
+                        <option value="https://jx.lache.me/cc/?url=">解析地址2</option>
+                        <option value="https://api.653520.top/vip/?url=">解析地址3</option>
+                        <option value="https://jx.ab33.top/vip/?url=">解析地址4</option>
+                        <option value="https://vip.mpos.ren/v/?url=">解析地址5</option>
+                        <option value="https://jx.000180.top/jx/?url=">解析地址6</option>
+                        <option value="https://jx.km58.top/jx/?url=">解析地址7</option>
+                </select><br/>
+                <input id="vip_url" type="text" value="" style="width:100%;margin:10px 0;" placeholder="请输入视频地址">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" onmousedown="gowatch()">立即观看</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" id="imageLoadModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img id="largeImage" src="" alt="" style="width:100%;" onmousewheel="return bigimg(this)">
+            </div>
+        </div>
+    </div>
 </body>
 <script>
+    window.onload=function(){
+        document.getElementById("cards").style.height = window.innerHeight+"px"
+    }
     function gowatch(){
         var vip_analyze = document.getElementById("vip_analyze");
         var analyze_url = vip_analyze[vip_analyze.selectedIndex].value
-        var vip_url = document.getElementById("vip_url")
-        window.open(analyze_url+vip_url);
+        var vip_url = document.getElementById("vip_url").value;
+        if(vip_url){
+            window.open(analyze_url+vip_url);
+        }else{
+            return
+        }
+    }
+    function setImage(){
+        var largeImage = document.getElementById("largeImage");
+        largeImage.src = document.getElementById("smallImage").src;
+        largeImage.style.zoom='100%';
+    }
+    function bigimg(obj){
+        var largeImage = document.getElementById("largeImage");
+        largeImage.style.width = largeImage.offsetWidth+"px";
+        var zoom = parseInt(obj.style.zoom,10)||100;
+        zoom += event.wheelDelta / 12;
+        if(zoom > 90 && zoom < 140){
+            obj.style.zoom=zoom+'%';
+        }
+        return false;
     }
 </script>
 </html>
