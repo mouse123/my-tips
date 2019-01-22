@@ -40,3 +40,11 @@
 
 ## cocos 
 - [cocos](https://docs.cocos.com/creator/manual/zh/getting-started/coding-setup.html)
+## 代码保护
+- [:)](https://www.infoq.cn/article/CizxjhQJT*9b69WVyEML)
+## 数学视频
+- [:)](https://space.bilibili.com/88461692/video)
+## 程序员小故事
+- [XD](https://www.cnblogs.com/xueweihan/p/5220513.html)
+## ngrok
+- [ngrok](https://blog.csdn.net/zhangguo5/article/details/77848658)

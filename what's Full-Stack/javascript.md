@@ -67,6 +67,7 @@ $watch(a,function(newValue,oldValue){
 - [团队建立](https://www.infoq.cn/article/2kJpJl8*CPK3UZXHm2By)
 ## Flutter
 - [Flutter]()
+- [:)](https://www.infoq.cn/article/FYJEtAI5-fvIoSrqJ9Ok)
 ## 2019 React
 - [React](https://www.infoq.cn/article/AEkiVAiJf25LZmoUe_yc)
 ## 2019 Node.js
@@ -81,6 +82,7 @@ $watch(a,function(newValue,oldValue){
 - [小程序VUE](http://mpvue.com/mpvue/simple/)
 ## 2018 前端
 - [前端](https://www.infoq.cn/article/omWDKQXA3I*0fcPqJFTD)
+- [前端](https://time.geekbang.org/column/article/77749?utm_term=zeusV2R4J&utm_source=website&utm_medium=infoq&utm_campaign=154-presell&utm_content=textlink0121)
 ## 软技能
 - [软技能](https://www.infoq.cn/article/zE5KFjB*6Bs2ZBEUDzWX)
 ## React 实践
