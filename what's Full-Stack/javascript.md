@@ -72,6 +72,7 @@ $watch(a,function(newValue,oldValue){
 - [React](https://www.infoq.cn/article/AEkiVAiJf25LZmoUe_yc)
 ## 2019 Node.js
 - [Node.js](https://www.infoq.cn/article/mXd3WWq_8fd3xoEH9zjG)
+- [Node.js](https://www.infoq.cn/article/dDXK8AHUq_tNxXtfb4rE)
 ## Nginx
 - [Nginx] (https://www.infoq.cn/article/m*8bzJOGGLwDEYEfZBy9)
 ## 前端模块化
