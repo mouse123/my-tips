@@ -20,3 +20,4 @@
 Browsers and operating systems have not, by default, directly trusted Let’s Encrypt certificates, but they trust IdenTrust, and IdenTrust trusts us, so we are trusted indirectly. IdenTrust is a critical partner in our effort to secure the Web, as they have allowed us to provide widely trusted certificates from day one.
 ## 对称加密与非对称加密
 - [:)](https://www.zhihu.com/question/33645891/answer/57721969)
+## HTTP请求 host 需要dns域名解析，若解析失败，则导致无法发起http请求
