@@ -25,4 +25,6 @@
 - [squoosh](https://squoosh.app/)
 ## 图库
 - [pic](https://www.yuque.com/ruanyf/share/free-photos)
+## NPM
+- [:)](https://www.npmjs.com)
 
