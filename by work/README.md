@@ -48,3 +48,5 @@
 - [XD](https://www.cnblogs.com/xueweihan/p/5220513.html)
 ## ngrok
 - [ngrok](https://blog.csdn.net/zhangguo5/article/details/77848658)
+## 架构
+- [架构](https://www.infoq.cn/article/Qr-vTStW6uuvjs4SZJZr)
