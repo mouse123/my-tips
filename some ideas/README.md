@@ -9,3 +9,7 @@
 ## 宠物到家
 
 ## 幼教管家 (监控,服务，周边)
+
+## AI+IoT
+### 消费、金融、汽车、文娱、高端制造、教育、物流、房地产、医疗等的行业
+- [AI+IoT](https://www.infoq.cn/article/iR-c4TRsO4c86QfpWfbr)
