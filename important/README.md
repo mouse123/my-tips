@@ -5,3 +5,4 @@
 - [](https://www.infoq.cn/article/UB7YFmdUoNO*MeDHomho)
 ## 资产积累
 - 房产、专利、股权
+## 写字机器人
