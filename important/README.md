@@ -6,3 +6,13 @@
 ## 资产积累
 - 房产、专利、股权
 ## 写字机器人
+## 阿里云AI
+- [](https://www.infoq.cn/article/NxTj8-xC2KIZxGiFVMMu)
+## 异步和同步、阻塞和非阻塞、并行和并发、事件驱动
+- [](https://luminousmen.com/post/asynchronous-programming-blocking-and-non-blocking)
+## 服务器扩展
+- [](https://arcentry.com/blog/scaling-webapps-for-newbs-and-non-techies/)
+## 无服务器引导
+- [](https://arcentry.com/blog/)
+## 网页线代
+- [](http://immersivemath.com/ila/learnmore.html)
