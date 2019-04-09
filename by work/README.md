@@ -53,4 +53,4 @@
 ## go example
 -[go](https://gobyexample.com/)
 ## Git news 
-- [](https://git.news/)
+- [Git news](https://git.news/)
