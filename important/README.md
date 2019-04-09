@@ -16,3 +16,11 @@
 - [](https://arcentry.com/blog/)
 ## 网页线代
 - [](http://immersivemath.com/ila/learnmore.html)
+## redis 使用注意事项
+- [](https://www.infoq.cn/article/K7dB5AFKI9mr5Ugbs_px)
+## 软件开发定律
+- [](https://www.infoq.cn/article/1dyfkOTeohgHSCh_Xle9)
+## linux内核
+- [](https://xinqiu.gitbooks.io/linux-insides-cn/content/Booting/linux-bootstrap-1.html)
+## 浏览器缓存
+- [](https://www.infoq.cn/article/8VU-VCrhoxducaFPrNOL)
