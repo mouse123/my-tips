@@ -28,3 +28,7 @@
 - [本三路](http://www.bslxx.com/)
 ## 狼叔讲node.js
 - [node](https://yq.aliyun.com/articles/615518)
+## node.js安全
+- [secure](https://segmentfault.com/a/1190000003860400)
+##2019 web
+- [web](https://www.infoq.cn/article/DcIG3BX0DG*YrcyJCttC)
