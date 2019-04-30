@@ -32,3 +32,7 @@
 - [secure](https://segmentfault.com/a/1190000003860400)
 ##2019 web
 - [web](https://www.infoq.cn/article/DcIG3BX0DG*YrcyJCttC)
+##webxr
+- [webxr](https://www.w3.org/TR/webxr/)
+## 大佬面经
+- [:>](http://www.bslxx.com/a/mianshiti/bijingmianjing/2018/0611/1998.html)
