@@ -24,7 +24,9 @@
 - Or使用不当，or两边都必须有索引才行
 - In 、not in
 - Where子句对字段进行表达式操作
-
+### sql 数据转换
+- CAST(Col as int)
+- CAST(Col as char)
 ## GPU Database
 - ![avatar](https://raw.githubusercontent.com/mouse123/my-tips/master/image/gpu.gif)
 

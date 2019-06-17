@@ -38,3 +38,14 @@
 - [:>](http://www.bslxx.com/a/mianshiti/bijingmianjing/2018/0611/1998.html)
 ## 题目
 - [233](https://www.infoq.cn/article/hqgQHz6DSYZNBS7B*93E)
+## 硅谷开发流程
+- [:3](https://www.infoq.cn/article/tQrY-B15aRoBdzyr2aOh)
+## 前端监控
+- [:?](https://www.cnblogs.com/hustskyking/p/fe-monitor.html)
+## swift-ui
+- [-](https://www.infoq.cn/article/Puii*HdQWCDjPzvTNcKq)
+## 课程
+- [-](https://www.classcentral.com/)
+## web优化
+- [-](https://www.infoq.cn/article/Xxyy8WZrWLwUlIF0*IxR)
+## gzip http传输
